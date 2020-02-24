@@ -99,9 +99,11 @@
 		63BBB3F1240426600024EC48 /* MultiAPI */ = {
 			isa = PBXGroup;
 			children = (
+				63BBB425240429190024EC48 /* View */,
+				63BBB424240429140024EC48 /* Model */,
+				63BBB423240429050024EC48 /* Controller */,
 				63BBB3F2240426600024EC48 /* AppDelegate.swift */,
 				63BBB3F4240426600024EC48 /* SceneDelegate.swift */,
-				63BBB3F6240426600024EC48 /* ViewController.swift */,
 				63BBB3F8240426600024EC48 /* Main.storyboard */,
 				63BBB3FB240426650024EC48 /* Assets.xcassets */,
 				63BBB3FD240426650024EC48 /* LaunchScreen.storyboard */,
@@ -126,6 +128,28 @@
 				63BBB416240426650024EC48 /* Info.plist */,
 			);
 			path = MultiAPIUITests;
+			sourceTree = "<group>";
+		};
+		63BBB423240429050024EC48 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63BBB3F6240426600024EC48 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		63BBB424240429140024EC48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63BBB425240429190024EC48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
