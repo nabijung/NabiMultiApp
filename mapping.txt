@@ -1,0 +1,211 @@
+Weather API
+{
+    "coord": {
+        "lon": -74.01,
+        "lat": 40.71
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 282.48,
+        "feels_like": 277.12,
+        "temp_min": 280.37,
+        "temp_max": 284.15,
+        "pressure": 1023,
+        "humidity": 21
+    },
+    "visibility": 16093,
+    "wind": {
+        "speed": 3.1,
+        "deg": 290
+    },
+    "clouds": {
+        "all": 1
+    },
+    "dt": 1582474584,
+    "sys": {
+        "type": 1,
+        "id": 4686,
+        "country": "US",
+        "sunrise": 1582457992,
+        "sunset": 1582497564
+    },
+    "timezone": -18000,
+    "id": 5128581,
+    "name": "New York City",
+    "cod": 200
+}
+
+var location = weatherJSON.name
+var temp = weatherJSON.main.temp
+var high = weatherJSON.temp_max
+var low = weatherJSON.temp_max
+var description = weatherJSON.weather.descrption
+
+Unsplash API
+[
+    {
+        "id": "Wc95vfQvrys",
+        "created_at": "2019-05-27T14:07:14-04:00",
+        "updated_at": "2020-02-21T00:05:04-05:00",
+        "promoted_at": null,
+        "width": 5472,
+        "height": 3648,
+        "color": "#040303",
+        "description": null,
+        "alt_description": "man riding black and gray motorcycle on asphalted road near brown concrete building",
+        "urls": {
+            "raw": "https://images.unsplash.com/photo-1558980394-a3099ed53abb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExNzUxMH0",
+            "full": "https://images.unsplash.com/photo-1558980394-a3099ed53abb?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjExNzUxMH0",
+            "regular": "https://images.unsplash.com/photo-1558980394-a3099ed53abb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzUxMH0",
+            "small": "https://images.unsplash.com/photo-1558980394-a3099ed53abb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjExNzUxMH0",
+            "thumb": "https://images.unsplash.com/photo-1558980394-a3099ed53abb?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=200&fit=max&ixid=eyJhcHBfaWQiOjExNzUxMH0"
+        },
+        "links": {
+            "self": "https://api.unsplash.com/photos/Wc95vfQvrys",
+            "html": "https://unsplash.com/photos/Wc95vfQvrys",
+            "download": "https://unsplash.com/photos/Wc95vfQvrys/download",
+            "download_location": "https://api.unsplash.com/photos/Wc95vfQvrys/download"
+        },
+        "categories": [],
+        "likes": 345,
+        "liked_by_user": false,
+        "current_user_collections": [],
+        "user": {
+            "id": "XnhDFu3Jr-A",
+            "updated_at": "2020-02-24T16:25:40-05:00",
+            "username": "harleydavidson",
+            "name": "Harley-Davidson",
+            "first_name": "Harley-Davidson",
+            "last_name": null,
+            "twitter_username": "harleydavidson",
+            "portfolio_url": "https://www.harley-davidson.com/",
+            "bio": "All for Freedom, Freedom for All. ",
+            "location": "Milwaukee, WI",
+            "links": {
+                "self": "https://api.unsplash.com/users/harleydavidson",
+                "html": "https://unsplash.com/@harleydavidson",
+                "photos": "https://api.unsplash.com/users/harleydavidson/photos",
+                "likes": "https://api.unsplash.com/users/harleydavidson/likes",
+                "portfolio": "https://api.unsplash.com/users/harleydavidson/portfolio",
+                "following": "https://api.unsplash.com/users/harleydavidson/following",
+                "followers": "https://api.unsplash.com/users/harleydavidson/followers"
+            },
+            "profile_image": {
+                "small": "https://images.unsplash.com/profile-1581523732368-f052bf86083dimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=32&w=32",
+                "medium": "https://images.unsplash.com/profile-1581523732368-f052bf86083dimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64",
+                "large": "https://images.unsplash.com/profile-1581523732368-f052bf86083dimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128"
+            },
+            "instagram_username": "harleydavidson",
+            "total_collections": 2,
+            "total_likes": 45,
+            "total_photos": 53,
+            "accepted_tos": true
+        },
+        "sponsorship": {
+            "impression_urls": [
+                "https://secure.insightexpressai.com/adServer/adServerESI.aspx?script=false&bannerID=5053946&rnd=unsplash&redir=https://secure.insightexpressai.com/adserver/1pixel.gif"
+            ],
+            "tagline": "Explore the world of H-D",
+            "sponsor": {
+                "id": "XnhDFu3Jr-A",
+                "updated_at": "2020-02-24T16:25:40-05:00",
+                "username": "harleydavidson",
+                "name": "Harley-Davidson",
+                "first_name": "Harley-Davidson",
+                "last_name": null,
+                "twitter_username": "harleydavidson",
+                "portfolio_url": "https://www.harley-davidson.com/",
+                "bio": "All for Freedom, Freedom for All. ",
+                "location": "Milwaukee, WI",
+                "links": {
+                    "self": "https://api.unsplash.com/users/harleydavidson",
+                    "html": "https://unsplash.com/@harleydavidson",
+                    "photos": "https://api.unsplash.com/users/harleydavidson/photos",
+                    "likes": "https://api.unsplash.com/users/harleydavidson/likes",
+                    "portfolio": "https://api.unsplash.com/users/harleydavidson/portfolio",
+                    "following": "https://api.unsplash.com/users/harleydavidson/following",
+                    "followers": "https://api.unsplash.com/users/harleydavidson/followers"
+                },
+                "profile_image": {
+                    "small": "https://images.unsplash.com/profile-1581523732368-f052bf86083dimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=32&w=32",
+                    "medium": "https://images.unsplash.com/profile-1581523732368-f052bf86083dimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=64&w=64",
+                    "large": "https://images.unsplash.com/profile-1581523732368-f052bf86083dimage?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&cs=tinysrgb&fit=crop&h=128&w=128"
+                },
+                "instagram_username": "harleydavidson",
+                "total_collections": 2,
+                "total_likes": 45,
+                "total_photos": 53,
+                "accepted_tos": true
+            }
+        }
+    }
+}
+
+var id = unsplashResponse.id
+var url = unsplashResponse.urls.full
+var width = unsplashResponse.width
+var height = unsplashResponse.height
+
+
+Yelp API
+{
+    "businesses": [
+        {
+            "id": "nRO136GRieGtxz18uD61DA",
+            "alias": "eleven-madison-park-new-york",
+            "name": "Eleven Madison Park",
+            "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/2hfw1KehM6JG6WqCAyj32A/o.jpg",
+            "is_closed": false,
+            "url": "https://www.yelp.com/biz/eleven-madison-park-new-york?adjust_creative=lb2gVc9HRWinzPMruKTMew&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=lb2gVc9HRWinzPMruKTMew",
+            "review_count": 2171,
+            "categories": [
+                {
+                    "alias": "newamerican",
+                    "title": "American (New)"
+                },
+                {
+                    "alias": "french",
+                    "title": "French"
+                },
+                {
+                    "alias": "cocktailbars",
+                    "title": "Cocktail Bars"
+                }
+            ],
+            "rating": 4.5,
+            "coordinates": {
+                "latitude": 40.7416907417333,
+                "longitude": -73.9872074872255
+            },
+            "transactions": [],
+            "price": "$$$$",
+            "location": {
+                "address1": "11 Madison Ave",
+                "address2": "",
+                "address3": "",
+                "city": "New York",
+                "zip_code": "10010",
+                "country": "US",
+                "state": "NY",
+                "display_address": [
+                    "11 Madison Ave",
+                    "New York, NY 10010"
+                ]
+            },
+            "phone": "+12128890905",
+            "display_phone": "(212) 889-0905",
+            "distance": 5062.877693844026
+        },
+
+var name = yelpJSON.business.name
+var isClosed = yelpJSON.business.is_closed
+var location = yelpJSON.business.display_address
+
